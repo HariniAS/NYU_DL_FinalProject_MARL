@@ -1,1 +1,26 @@
-# MARL
+## Multi-Agent Reinforcement Learning (MARL) to master Knights Archers Zombies game
+
+### Goal
+In this project, our aim is to implement a Cooperative MARL model with the goal of mastering the KAZ game that involves multiple agents.
+
+### Main files
+
+- arguments.py: Stores all the variables and values of the hyper-parameter.
+- env.py: Imports, initializes and pre-processes KAZ environment from PettingZoo library.
+- agent.py: Selects actions according to the current state and epsilon value, and takes steps for each agent individually
+- dqn.py: Our DQN MARL algorithm
+- replay_buffer.py: Stores the trajectories in the memory
+- train.py: Trains the agents, updates replay buffer, calculates loss and updates the network.
+- test_pettingzoo.py: Uses the optimum model to test on a fresh environment.
+- video.py: Renders the environment, records the progress and saves the video
+
+### Instructions to run
+1. 
+
+
+### Demo
+Single agent
+![](Single_agent.gif)
+
+Multi agents
+![](Multi_agents.gif)
