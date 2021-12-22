@@ -12,7 +12,7 @@ In this project, our aim is to implement a Cooperative MARL model with the goal 
 - replay_buffer.py: Stores the trajectories in the memory
 - train.py: Trains the agents, updates replay buffer, calculates loss and updates the network.
 - test_pettingzoo.py: Uses the optimum model to test on a fresh environment.
-- video.py: Renders the environment, records the progress and saves the video
+- video.py: Captures the frame, records the progress, saves the video and allows us to watch them play
 
 ### Instructions to run
 1. 
