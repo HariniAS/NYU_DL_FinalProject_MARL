@@ -26,3 +26,7 @@ Single agent
 Multiple agents
 
 ![](Multi_agents.gif)
+
+---
+### NYU Deep Learning Final Project
+### Harini Appansrinivasan (ha1642) and Vaibhav Mathur (vm2134)
