@@ -8,7 +8,7 @@ In this project, our aim is to implement a Cooperative MARL model with the goal 
 - arguments.py: Stores all the variables and values of the hyper-parameter.
 - env.py: Imports, initializes and pre-processes KAZ environment from PettingZoo library.
 - agent.py: Selects actions according to the current state and epsilon value, and takes steps for each agent individually
-- dqn.py: Our DQN MARL algorithm
+- dqn.py: The DQN MARL algorithm
 - replay_buffer.py: Stores the trajectories in the memory
 - train.py: Trains the agents, updates replay buffer, calculates loss and updates the network.
 - test_pettingzoo.py: Uses the optimum model to test on a fresh environment.
@@ -20,7 +20,9 @@ In this project, our aim is to implement a Cooperative MARL model with the goal 
 
 ### Demo
 Single agent
+
 ![](Single_agent.gif)
 
-Multi agents
+Multiple agents
+
 ![](Multi_agents.gif)
