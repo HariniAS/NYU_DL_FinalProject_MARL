@@ -1,0 +1,30 @@
+name: MARL
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - cudatoolkit=10.0
+  - torchvision
+  - pytorch
+  - absl-py
+  - pyparsing
+  - jupyterlab
+  - scikit-image
+  - pip
+  - pip:
+    - pettingzoo[all]
+    - supersuit
+    - stable_baselines3
+    - termcolor
+    - pandas
+    - ipdb
+    - tqdm
+    - yapf
+    - sklearn
+    - matplotlib
+    - MakeTreeDir
+    - gym
+    - numpy
+    - omegaconf
+    - wandb
+    - imageio-ffmpeg
